@@ -538,7 +538,7 @@ footer {
 
 @media screen and (max-width: 767px) {
     body {
-       overflow: auto;
+       overflow: hidden;
     }
  
      header {
@@ -790,7 +790,7 @@ footer {
        transition: .7s;
        visibility: hidden;
        overflow: hidden;
-       margin-bottom: -4rem;
+       margin-bottom: -16rem;
       }
 
     #nav.active #menu{
@@ -803,7 +803,7 @@ font-size: 2rem;
 height: 100vh;
 visibility: visible;
 overflow: hidden;
-bottom: -4rem;
+
 }
 
 #menu ul {
