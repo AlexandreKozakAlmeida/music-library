@@ -538,7 +538,7 @@ footer {
 
 @media screen and (max-width: 767px) {
     body {
-       overflow: hidden;
+       overflow: auto;
     }
  
      header {
