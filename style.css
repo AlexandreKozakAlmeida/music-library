@@ -778,7 +778,7 @@ footer {
         text-align: center;
         gap: 2rem;
         font-size: 2rem;
-        height: 0vh;
+       
        
        position: absolute;
        
@@ -789,19 +789,24 @@ footer {
        z-index: 1000;
        transition: .7s;
        visibility: hidden;
-       overflow: hidden;
+      
+       top: 20rem;
       }
 
     #nav.active #menu{
 display: flex;
 flex-direction: column;
-justify-content: center;
+justify-content: flex-start;
 
 gap: 2rem;
-font-size: 2rem;
+
 height: 100vh;
 visibility: visible;
-overflow: hidden;
+
+}
+
+#nav.active body {
+    overflow: hidden;
 }
 
 #menu ul {
