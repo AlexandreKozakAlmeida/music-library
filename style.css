@@ -773,7 +773,7 @@ footer {
     }
 
 
-    nav #nav {
+    nav#nav {
     position: absolute;
     right: -5px;
  }   
@@ -781,7 +781,7 @@ footer {
  #btn-mobile {
         background: none;
         border: none;
-        margin-left: 10rem;
+       
        
      }
 
