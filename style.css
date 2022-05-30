@@ -698,8 +698,8 @@ footer {
     
     margin-top: 22rem;
     margin-right: 1rem;
-    height: 16rem;
-    width: 93vw;
+    height: 18rem;
+    width: 95vw;
    
 }
    
@@ -759,11 +759,9 @@ footer {
     #btn-mobile {
         background: none;
         border: none;
-        position: absolute;
-        right: 2rem;
-        top: 74.5rem;
-        
-    }
+        margin-left: 10rem;
+       
+     }
 
     .line1,
     .line2,
@@ -779,33 +777,38 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        justify-items: center;
         text-align: center;
         gap: 2rem;
         font-size: 2rem;
-        height: 100vh;
+        height: 0vh;
        
        position: absolute;
-       height: 0;
+       
        width: 100%;
-       top: 0;
+       bottom: -16rem;
        background: black;
        right: 0;
        z-index: 1000;
        transition: .7s;
        visibility: hidden;
-       overflow-y: hidden;
+       overflow: hidden;
       }
 
     #nav.active #menu{
 display: flex;
 flex-direction: column;
 justify-content: center;
-text-align: center;
+
 gap: 2rem;
 font-size: 2rem;
-height: 127vh;
+height: 100vh;
 visibility: visible;
 overflow: hidden;
+}
+
+#menu ul {
+    margin-bottom: 15rem;
 }
 
 #nav.active #menu li {
@@ -830,7 +833,7 @@ overflow: hidden;
        border: none;
        font-size: 3rem;
        z-index: 10000;
-       top: 0;
+       top: 1.2rem;
        right: 1rem;
     }
  
