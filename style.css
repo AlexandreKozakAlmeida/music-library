@@ -687,8 +687,6 @@ footer {
     margin-top: .3rem;
 
 }
-
-
 .track {
     display: flex;
     flex-direction: column;
@@ -775,7 +773,7 @@ footer {
         overflow: hidden;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         justify-items: center;
         text-align: center;
         gap: 2rem;
@@ -785,7 +783,7 @@ footer {
        position: absolute;
        
        width: 100%;
-       bottom: -16rem;
+       margin-bottom: 0rem;
        background: black;
        right: 0;
        z-index: 1000;
