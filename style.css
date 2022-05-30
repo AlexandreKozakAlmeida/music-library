@@ -774,9 +774,8 @@ footer {
 
 
     nav #nav {
-     width: 45vw;
-     display: flex;
-     justify-content: end;
+    position: absolute;
+    right: -5px;
  }   
  
  #btn-mobile {
