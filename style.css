@@ -789,18 +789,18 @@ footer {
        z-index: 1000;
        transition: .7s;
        visibility: hidden;
-       
-       top: 16rem;
+      
+       top: 19rem;
       }
 
     #nav.active #menu{
 display: flex;
 flex-direction: column;
-justify-content: center;
+justify-content: flex-start;
 
 gap: 2rem;
 
-height: 70vh;
+height: 103vh;
 visibility: visible;
 
 
