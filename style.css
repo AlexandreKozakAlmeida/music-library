@@ -790,7 +790,7 @@ footer {
        transition: .7s;
        visibility: hidden;
       
-       top: 19rem;
+       top: 20rem;
       }
 
     #nav.active #menu{
@@ -803,8 +803,10 @@ gap: 2rem;
 height: 103vh;
 visibility: visible;
 
+}
 
-
+#nav.active body {
+    overflow: hidden;
 }
 
 #menu ul {
