@@ -10,6 +10,7 @@
     color: var(--white-color);
     text-decoration: none;
     list-style: none;
+    
 }
 
 :root {
@@ -38,7 +39,7 @@ header {
 .search {
     margin-top: 3.5rem;
     margin-left: 16rem;
-   
+    width: 40vw;
     display: flex;
     gap: 2rem;
     
@@ -68,19 +69,25 @@ main {
 }
 
 .featured-playlists {
+    width: 50vw;
     font-size: 2.2rem;
     font-weight: 600;
     margin-top: 3rem;
 margin-left: 18rem;
+
 }
 
 .playlist {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 2rem;
     margin-left: 10rem;
     overflow-x: auto;
     width: 72.7vw;
+    height: 28rem;
+   
+   
     
 }
 
@@ -96,7 +103,7 @@ margin-left: 18rem;
 }
 
 .playlist img {
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-left: 2rem;
     width: auto;
     border-radius: 1rem;
@@ -108,7 +115,7 @@ margin-left: 18rem;
 
 .playlist img:hover {
     -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    transform: scale(1.12);
     cursor: pointer;
 }
 
@@ -138,7 +145,7 @@ margin-left: 18rem;
     flex-direction: column;
     gap: 2rem;
     margin-left: 12rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .profile figure {
@@ -244,7 +251,7 @@ margin-left: 18rem;
 
 .track-img img:hover {
     -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    transform: scale(1.12);
 }
 
 
@@ -391,15 +398,17 @@ footer {
 
     .playlist img {
        margin-top: 0;
-        margin-left: -1rem;
+        margin-left: 1.4rem;
         width: auto;
         border-radius: 1rem;
        height: 17rem;
+       -webkit-transition: -webkit-transform .5s ease;
+       transition: transform .5 ease;
     }
 
 .playlist img:hover {
-    -webkit-transform: none;
-    transform: none;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.12);
 }    
 
     .playlist figcaption {
@@ -409,7 +418,7 @@ footer {
     
     .playlist h5 {
         font-size: 1.4rem;
-        margin-top: .3rem;
+        margin-top: .7em;
         text-transform: capitalize;
     }
 
@@ -491,7 +500,7 @@ footer {
         margin-left: 2rem;
         
         max-width: 65vw;
-        margin-top: -5rem;
+        margin-top: -6rem;
         
     }
     
@@ -552,12 +561,20 @@ footer {
      .search {
         margin-top: 2rem;
         margin-left: 2rem;
-       
         display: flex;
         gap: 1rem;
-        
+        width: 85vw;
+    }
+
+    .search input {
+        width: 85vw;
     }
     
+.search input,
+.search i {
+    font-size: 1.5rem;
+}
+
     header input,
     header button {
         background: none;
@@ -583,7 +600,7 @@ footer {
      }
  
      .featured-playlists {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         font-weight: 600;
         margin-top: 1rem;
     margin-left: 3rem;
@@ -600,6 +617,8 @@ footer {
         overflow-x: auto;
        width: 93vw;
        
+       padding-top: 2rem;
+       height: 32vh;
     }
 
     .playlist img {
@@ -693,7 +712,7 @@ footer {
     align-items: center;
    
     
-    margin-top: 22rem;
+    margin-top: 20rem;
     margin-right: 1rem;
     height: 18rem;
     width: 95vw;
@@ -753,7 +772,14 @@ footer {
          font-size: 1.26rem;
     }
 
-    #btn-mobile {
+
+    nav #nav {
+     width: 45vw;
+     display: flex;
+     justify-content: end;
+ }   
+ 
+ #btn-mobile {
         background: none;
         border: none;
         margin-left: 10rem;
@@ -767,6 +793,7 @@ footer {
         width: 2.3rem;
         height: auto;
         margin-bottom: .5rem;
+        margin-right: 1rem;
     }
 
     #menu {
@@ -791,6 +818,7 @@ footer {
        visibility: hidden;
       
        top: 0rem;
+       height: 0vh;
       }
 
     #nav.active #menu{
@@ -800,7 +828,7 @@ justify-content: center;
 
 gap: 2rem;
 
-height: 100vh;
+height: 105vh;
 visibility: visible;
 overflow: hidden;
 }
