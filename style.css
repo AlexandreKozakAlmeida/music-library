@@ -790,7 +790,7 @@ footer {
        transition: .7s;
        visibility: hidden;
        overflow: hidden;
-       margin-bottom: -2rem;
+       margin-bottom: -4rem;
       }
 
     #nav.active #menu{
@@ -803,7 +803,7 @@ font-size: 2rem;
 height: 100vh;
 visibility: visible;
 overflow: hidden;
-bottom: -22rem;
+bottom: -4rem;
 }
 
 #menu ul {
