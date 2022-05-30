@@ -790,7 +790,7 @@ footer {
        transition: .7s;
        visibility: hidden;
        
-       bottom: -10rem;
+       top: 70rem;
       }
 
     #nav.active #menu{
